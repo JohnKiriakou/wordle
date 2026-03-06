@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Wordle Clone</title>
+    <script type="module" crossorigin src="./assets/index-2zuxSspH.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DWCzFQVN.css">
+  </head>
+  <body>
+    <header>
+      <h1>WORDLE</h1>
+      <div class="controls">
+        <label for="length-select">Word Length:</label>
+        <select id="length-select">
+          <option value="5" selected>5 Letters</option>
+          <option value="6">6 Letters</option>
+          <option value="7">7 Letters</option>
+          <option value="8">8 Letters</option>
+          <option value="9">9 Letters</option>
+          <option value="10">10 Letters</option>
+          <option value="11">11 Letters</option>
+        </select>
+      </div>
+    </header>
+
+    <div id="game-message" class="hidden"></div>
+    <button id="play-again" class="hidden">Play Again</button>
+    
+    <main id="board-container">
+      <div id="board"></div>
+    </main>
+
+    <div id="keyboard"></div>
+
+  </body>
+</html>

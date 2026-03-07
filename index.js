@@ -2,7 +2,7 @@
     <!DOCTYPE html>
     <html>
     <head>
-      <title>Cheat Code</title>
+      <title>word</title>
       <style>
         body {
           display: flex;
